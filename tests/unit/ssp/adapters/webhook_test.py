@@ -1,8 +1,8 @@
 import pytest
 from pytest import fixture
 
-from ssp.adapters.webhook import internal_to_wire, wire_to_internal
-from ssp.models.webhook import WebhookMessage
+from lwill.adapters.webhook import internal_to_wire, wire_to_internal
+from lwill.models.webhook import WebhookMessage
 
 
 @pytest.mark.parametrize(

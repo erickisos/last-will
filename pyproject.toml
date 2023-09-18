@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "ssp"
+name = "lwill"
 version = "0.1.0"
-description = "Simple template for serverless projects"
+description = "API to trigger a confirmation message and send some documents if you are unable to answer."
 authors = ["Erick G. Islas-Osuna <erickisos653@gmail.com>"]
 readme = "README.md"
 license = "GPLv3"
-packages = [{ include = "ssp", from = "src" }]
+packages = [{ include = "lwill", from = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.9"
