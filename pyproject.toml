@@ -15,7 +15,7 @@ pydantic = { extras = ["dataclasses"], version = "^2.8.2" }
 mypy = "^1.11.1"
 black = { version = "^24.8.0", allow-prereleases = true }
 isort = "^5.13.2"
-bandit = "^1.7.9"
+bandit = "^1.7.10"
 flake8 = "^7.1.0"
 pytest = "^8.3.2"
 pre-commit = "^3.8.0"
